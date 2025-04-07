@@ -1,0 +1,17 @@
+.ipynb_checkpoints
+.venv*
+__pycache__
+git.old
+2018
+backups
+colors
+data
+data_open_elections
+notes
+output
+save
+*.key
+*.png
+*.xlsx
+*.webloc
+*-Copy*.ipynb

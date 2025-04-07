@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>Flask app</title>
+	</head>
+	<style>
+		* {
+			font-family: sans-serif;
+			line-height: 1.35em;
+		}
+
+		img {
+			max-width: 100%;
+			height: auto;
+		}
+
+		#app {
+			margin: 0 auto;
+			max-width: 1200px;
+		}
+	</style>
+	<body>
+		<div id="app">
+			<h1>Analyze Partisanship in Michigan</h1>
+			<h2>An informal research project covering electoral cycles between 2014 and 2024.</h2>
+			<div id="main">{% block content %}{% endblock %}</div>
+		</div>
+	</body>
+</html>

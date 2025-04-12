@@ -10,6 +10,7 @@ data_open_elections
 notes
 output
 save
+*.pdf
 *.key
 *.png
 *.xlsx

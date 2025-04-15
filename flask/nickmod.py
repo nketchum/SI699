@@ -27,3 +27,8 @@ def makeText():
 	text = open(full_filename, 'r')
 	# markdown = Markdown(text)
 	return text
+
+def run_hello():
+    with open("hello.txt", "w") as f:
+        f.write("Hello World")
+    return "hello.txt"

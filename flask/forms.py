@@ -1,6 +1,6 @@
 from flask_wtf import FlaskForm
-from wtforms import StringField, SubmitField
-from flask_wtf.recaptcha import RecaptchaField
+from wtforms import StringField, SubmitField, BooleanField
+# from flask_wtf.recaptcha import RecaptchaField
 from wtforms.validators import DataRequired, Length, Email
 
 class ContactForm(FlaskForm):
@@ -23,5 +23,7 @@ class ContactForm(FlaskForm):
             message=('Your message is too short.'))
         ]
     )
-    recaptcha = RecaptchaField()
+    run_script = BooleanField('Run Hello Script')
+
+    # recaptcha = RecaptchaField()
     submit = SubmitField('Submit')

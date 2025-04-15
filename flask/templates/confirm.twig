@@ -1,0 +1,16 @@
+{% extends 'base.twig' %}
+
+
+{% block content %}
+
+  <div class="content-wrapper">
+    <h3 class="title">Confirm</h3>
+    <div class="field field-name">{{ name }}</div>
+    <div class="field field-email">{{ email }}</div>
+    <div class="field field-body">{{ body }}</div>
+    {% if download_link %}
+      <p><a href="{{ download_link }}" download>Download hello.txt</a></p>
+    {% endif %}
+  </div>
+
+{% endblock %}

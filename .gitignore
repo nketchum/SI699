@@ -13,6 +13,7 @@ save
 *.pdf
 *.key
 *.png
+*.csv
 *.xlsx
 *.webloc
 *-Copy*.ipynb

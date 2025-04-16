@@ -3,22 +3,10 @@
 <html>
 	<head>
 		<title>Flask app</title>
+		<link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
 	</head>
 	<style>
-		* {
-			font-family: sans-serif;
-			line-height: 1.35em;
-		}
 
-		img {
-			max-width: 100%;
-			height: auto;
-		}
-
-		#app {
-			margin: 0 auto;
-			max-width: 1200px;
-		}
 	</style>
 	<body>
 		<div id="app">

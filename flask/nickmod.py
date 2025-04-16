@@ -1,7 +1,6 @@
+from flask import url_for
 from datetime import date
 from markupsafe import Markup
-
-# from flaskext.markdown import Markdown
 
 import os
 
@@ -17,15 +16,16 @@ def makeMessage(message):
 
 
 def makePlots():
-	full_filename = os.path.join('/static', 'img.png') # os.getcwd() breaks this.
-	markup = Markup(f'<img src="{full_filename}">')
+	# Use url_for to create a web path for an asset
+	img_url = url_for('static', filename='outputs/images/img.png')
+	markup = Markup(f'<img src="{img_url}">')
 	return markup
 
 
 def makeText():
-	full_filename = os.path.join(os.getcwd() + '/static', 'textfile.md')
+	# Use os.path for inserting content
+	full_filename = os.path.join(os.getcwd() + '/static/outputs/markdown', 'textfile.md')
 	text = open(full_filename, 'r')
-	# markdown = Markdown(text)
 	return text
 
 def run_hello():

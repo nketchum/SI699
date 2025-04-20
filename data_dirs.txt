@@ -1,0 +1,117 @@
+.data
+├── OpenDataDE
+├── USDOT
+│    ├── HPA_V5
+│    └── HPA_v4
+├── census
+│    ├── b02001_race
+│    ├── b04007_ancestry
+│    ├── b05001_nativity_citizenship
+│    ├── b05012_nativity_us
+│    ├── b08303_travel_time_work
+│    ├── b19013_income_poverty
+│    ├── b25003_housing_rentership
+│    ├── counties
+│    │  └── tl_2020_us_county
+│    ├── dp02_selected_social_characteristics
+│    ├── dp03_selected_economic_characteristics
+│    ├── dp04_housing_characteristics
+│    ├── dp05_age_race
+│    ├── fips
+│    ├── s0101_age_sex
+│    ├── s1101_households_families
+│    ├── s1201_marital_status
+│    ├── s1501_educational_attainment
+│    ├── s1701_income_poverty
+│    ├── s1903_median_income
+│    ├── s2101_veteran_status
+│    ├── s2201_food_stamps
+│    ├── s2301_employment_status
+│    ├── s2401_occupation_sex
+│    ├── s2403_industry_sex
+│    ├── s2501_occupancy_characteristics
+│    ├── s2502_demographic_characteristics_occupied
+│    ├── s2503_financial_characteristics
+│    ├── s2701_health_insurance
+│    ├── tracts
+│    │  ├── cb_2013_26_tract_500k
+│    │  ├── cb_2014_26_tract_500k
+│    │  ├── cb_2015_26_tract_500k
+│    │  ├── cb_2016_26_tract_500k
+│    │  ├── cb_2017_26_tract_500k
+│    │  ├── cb_2018_26_tract_500k
+│    │  ├── cb_2019_26_tract_500k
+│    │  ├── cb_2020_26_tract_500k
+│    │  ├── cb_2021_26_tract_500k
+│    │  ├── cb_2022_26_tract_500k
+│    │  ├── cb_2023_26_tract_500k
+│    │  ├── tl_2010_26_tract10
+│    │  ├── tl_2011_26_tract
+│    │  ├── tl_2012_26_tract
+│    │  ├── tl_2013_26_tract
+│    │  ├── tl_2014_26_tract
+│    │  ├── tl_2015_26_tract
+│    │  ├── tl_2016_26_tract
+│    │  ├── tl_2017_26_tract
+│    │  ├── tl_2018_26_tract
+│    │  ├── tl_2019_26_tract
+│    │  ├── tl_2020_26_tract
+│    │  ├── tl_2021_26_tract
+│    │  ├── tl_2022_26_tract
+│    │  ├── tl_2023_26_tract
+│    │  └── tl_2024_26_tract
+│    └── urban
+│        ├── tl_2020_us_uac10
+│        └── tl_2020_us_uac20
+├── custom_data
+├── elections-data-mi-sos
+│    ├── 2008GEN
+│    ├── 2010GEN
+│    ├── 2012GEN
+│    ├── 2014GEN
+│    ├── 2016GEN
+│    ├── 2018GEN
+│    ├── 2020GEN
+│    ├── 2022GEN
+│    └── headers
+├── fcc
+├── generated_data
+├── generated_data_save
+├── openelections-data-mi
+│    ├── 1998
+│    ├── 2000
+│    ├── 2002
+│    ├── 2004
+│    ├── 2006
+│    ├── 2008
+│    ├── 2010
+│    ├── 2012
+│    ├── 2014
+│    ├── 2016
+│    ├── 2018
+│    ├── 2020
+│    │  └── counties
+│    ├── 2022
+│    │  └── counties
+│    ├── 2024
+│    │  └── counties
+│    └── src
+│        └── 2018-muskegon-primary-parser
+│            ├── parsed_output
+│            ├── table
+│            │  └── __pycache__
+│            └── utils
+│                └── __pycache__
+├── school_districts
+├── state_of_michigan_foia
+└── voting_precincts
+    └── tl
+        ├── tl_2010_26_cousub10
+        ├── tl_2012_26_cousub
+        ├── tl_2014_26_cousub
+        ├── tl_2016_26_cousub
+        ├── tl_2018_26_cousub
+        ├── tl_2020_26_cousub
+        ├── tl_2022_26_cousub
+        ├── tl_2023_26_cousub
+        └── tl_2024_26_cousub
